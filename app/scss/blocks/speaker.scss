@@ -1,0 +1,37 @@
+.speaker {
+  position: relative;
+  margin-bottom: 30px;
+
+  @include media-breakpoint-up(xxl) {
+    margin-bottom: 0;
+  }
+}
+
+.speaker__image {
+  display: block;
+  max-width: 100%;
+  height: auto;
+
+  margin-bottom: 20px;
+}
+
+.speaker__name {
+  margin-bottom: 5px;
+}
+
+.speaker__theme {
+  position: relative;
+  padding-top: 10px;
+
+  color: #00827d;
+  
+  &:before {
+    content: '';
+    position: absolute;
+    width: 40px;
+    height: 2px;
+    background-color: #00534d;
+    top: 0;
+    left: 0;
+  }
+}
