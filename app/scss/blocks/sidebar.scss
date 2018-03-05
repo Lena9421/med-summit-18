@@ -1,0 +1,43 @@
+.sidebar {
+  background-color: white;
+}
+
+.sidebar__title {
+  padding: 30px 30px 0 30px;
+  @include media-breakpoint-up(sm) {
+    font-size: 3.5rem;
+  }
+
+  @include media-breakpoint-up(lg) {
+    font-size: 4rem;
+  }
+
+  @include media-breakpoint-up(xl) {
+    font-size: 3.5rem;
+  }
+
+  @include media-breakpoint-up(xxl) {
+    font-size: 4.5rem;
+  }
+}
+
+.sidebar__triangle {
+  position: relative;
+  margin-top: -1px;
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.sidebar__contact {
+  margin-top: auto;
+}
+
+.sidebar__black-btn {
+  font-size: 1.75rem;
+
+  &:hover, &:focus {
+    background-color: rgba(0,0,0,0.5);
+    transition-duration: 0.3s;
+  }
+}

@@ -1,0 +1,19 @@
+.speakers {
+  background-color: white;
+
+  border-left: 1px solid #6cada9;
+}
+
+.speakers__apply {
+  @include media-breakpoint-up(xxl) {
+    padding: 0 50px;
+  }
+}
+
+.speakers__subtitle {
+  width: 85px;
+
+  @include media-breakpoint-up(sm) {
+    width: 105px;
+  }
+}

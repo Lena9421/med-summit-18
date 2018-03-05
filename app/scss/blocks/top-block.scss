@@ -1,0 +1,16 @@
+.top-block {
+  height: 250px;
+  margin-bottom: 2rem;
+  background-color: #00534d;
+  color: white;
+
+  @include media-breakpoint-up(lg) {
+    height: 280px;
+    margin-bottom: 0;
+  }
+}
+
+.top-block__title {
+  width: 260px;
+}
+

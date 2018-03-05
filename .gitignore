@@ -1,0 +1,24 @@
+# Local files
+/psd/
+/log/
+/tmp/
+*_local.*
+
+# File system caches
+.DS_Store
+._*
+*.log
+
+# IDE system files
+.ropeproject
+.vim
+.idea
+.tags
+.env
+.env3
+*.sublime-workspace
+*.sublime-project
+
+
+/node_modules/
+/build/
